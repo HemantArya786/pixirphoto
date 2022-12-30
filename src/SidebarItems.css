@@ -1,0 +1,38 @@
+.sidebar-button {
+  background-color: #6610cf;
+  cursor: pointer;
+  position: relative;
+  transition: 150ms;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sidebar-button:hover,
+.sidebar-button:focus {
+  background-color: #250151;
+}
+.sidebar-button.active {
+  background-color: #250151;
+}
+
+.sidebar-button::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: 1px;
+  bottom: 0;
+  background-color: red !important;
+}
+
+.sidebar-button:last-child::after {
+  display: none;
+}
+
+.sidebarItems {
+  background-color: aliceblue;
+}
+
+.sidebar {
+  background-color: aliceblue;
+}

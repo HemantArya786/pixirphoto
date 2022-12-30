@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.main-image {
+  /* background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"); */
+
+  /* width: 100%; */
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.image-name {
+  width: 100%;
+  object-fit: cover;
+}
